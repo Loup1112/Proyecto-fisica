@@ -641,37 +641,32 @@ public class Instrucciones extends JFrame {
 		Titulo.setBounds(155, 41, 480, 272);
 		contentPane.add(Titulo);
 		
-		JLabel lbl1 = new JLabel("1. Seleccionar el tipo de Juego");
-		lbl1.setFont(new Font("Lucida Calligraphy", Font.PLAIN, 20));
-		lbl1.setBounds(133, 320, 534, 33);
-		contentPane.add(lbl1);
-		
-		JLabel lbl2 = new JLabel("2. Ingrese Su Nickname y Seleccione \"Siguiente\"");
+		JLabel lbl2 = new JLabel("El juego consiste en tratar de predecir el amgulo y distanciias que un bote necesita para llegar a cierto lugar del otro lado de un rio, marcada con una X.Para esto se debe tener en cuneta la velocidad a la que va el agua y la fuerza que debe hacer la barca para llegar :D");
 		lbl2.setFont(new Font("Lucida Calligraphy", Font.PLAIN, 20));
 		lbl2.setBounds(133, 360, 534, 33);
 		contentPane.add(lbl2);
 		
-		JLabel lbl3 = new JLabel("3. Seleccione \"Iniciar\" en la Ventana de Juego");
+		JLabel lbl3 = new JLabel("1. Seleccione \"Iniciar\" en la Ventana de Juego");
 		lbl3.setFont(new Font("Lucida Calligraphy", Font.PLAIN, 20));
 		lbl3.setBounds(133, 400, 534, 33);
 		contentPane.add(lbl3);
 		
-		JLabel lblDisfruteEl = new JLabel("4. Disfrute el Juego");
+		JLabel lblDisfruteEl = new JLabel("2. Escriba el angulo que usted considera correcto");
 		lblDisfruteEl.setFont(new Font("Lucida Calligraphy", Font.PLAIN, 20));
 		lblDisfruteEl.setBounds(133, 440, 534, 33);
 		contentPane.add(lblDisfruteEl);
 		
-		JLabel lbl4 = new JLabel("La Puntuaci\u00F3n se Genera de acuerdo a la cantidad");
+		JLabel lbl4 = new JLabel("3. Escriba las distancias que usted considera correctas");
 		lbl4.setFont(new Font("Lucida Calligraphy", Font.PLAIN, 20));
 		lbl4.setBounds(108, 500, 590, 33);
 		contentPane.add(lbl4);
 		
-		JLabel lbl41 = new JLabel("de movimientos necesarios para Ganar, entre m\u00E1s ");
+		JLabel lbl41 = new JLabel("4.Compare los datos que usted escribio con los correctos");
 		lbl41.setFont(new Font("Lucida Calligraphy", Font.PLAIN, 20));
 		lbl41.setBounds(108, 530, 590, 33);
 		contentPane.add(lbl41);
 		
-		JLabel lbl42 = new JLabel("movimientos realices la puntuaci\u00F3n ser\u00E1 menor.");
+		JLabel lbl42 = new JLabel("5.Disfrute del juego");
 		lbl42.setFont(new Font("Lucida Calligraphy", Font.PLAIN, 20));
 		lbl42.setBounds(108, 560, 590, 33);
 		contentPane.add(lbl42);
